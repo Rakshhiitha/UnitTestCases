@@ -4,6 +4,7 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_http_methods
 from django.core.files.storage import default_storage
+from django.http import HttpResponse
 
 # Default view to return "Hello, World!" message
 def hello_world(request):
